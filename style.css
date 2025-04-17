@@ -119,24 +119,27 @@ nav ul li a:hover {
     background-position: right;
     background-attachment: flex;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 75vh;
-    padding: 0px;
+    padding: 40px;
     background-color: #f0f1f7;
 }
 #about span {
     text-decoration: solid;
+    text-decoration: double;
     text-decoration: underline;
 }
 #about h2 {
   margin-top: 50px;
   width: 50%;
   padding-left: 40px;
+  color: #ffffff;
 }
 #about p {
   width: 50%;
   padding-left: 40px;
   line-height: 1.7em;
+  color: #ffffff;
 }
 #product {
     width: 100%;
