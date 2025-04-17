@@ -1,0 +1,195 @@
+/* CSS HEX 
+--oxford-blue: #09152bff;
+--oxford-blue-2: #082751ff;
+--yale-blue: #063977ff;
+--denim: #035cc2ff;
+--bleu-de-france: #0286dfff;
+--picton-blue: #00b0fcff;
+--pale-azure: #76d5feff;
+--uranian-blue: #b1e7ffff;
+--alice-blue: #ecf9ffff;
+
+/* CSS HSL 
+--oxford-blue: hsla(219, 65%, 10%, 1);
+--oxford-blue-2: hsla(215, 82%, 17%, 1);
+--yale-blue: hsla(213, 90%, 25%, 1);
+--denim: hsla(212, 97%, 39%, 1);
+--bleu-de-france: hsla(204, 98%, 44%, 1);
+--picton-blue: hsla(198, 100%, 49%, 1);
+--pale-azure: hsla(198, 99%, 73%, 1);
+--uranian-blue: hsla(198, 100%, 85%, 1);
+--alice-blue: hsla(199, 100%, 96%, 1);
+
+/* SCSS HEX 
+$oxford-blue: #09152bff;
+$oxford-blue-2: #082751ff;
+$yale-blue: #063977ff;
+$denim: #035cc2ff;
+$bleu-de-france: #0286dfff;
+$picton-blue: #00b0fcff;
+$pale-azure: #76d5feff;
+$uranian-blue: #b1e7ffff;
+$alice-blue: #ecf9ffff;
+
+/* SCSS HSL 
+$oxford-blue: hsla(219, 65%, 10%, 1);
+$oxford-blue-2: hsla(215, 82%, 17%, 1);
+$yale-blue: hsla(213, 90%, 25%, 1);
+$denim: hsla(212, 97%, 39%, 1);
+$bleu-de-france: hsla(204, 98%, 44%, 1);
+$picton-blue: hsla(198, 100%, 49%, 1);
+$pale-azure: hsla(198, 99%, 73%, 1);
+$uranian-blue: hsla(198, 100%, 85%, 1);
+$alice-blue: hsla(199, 100%, 96%, 1);
+
+/* SCSS RGB 
+$oxford-blue: rgba(9, 21, 43, 1);
+$oxford-blue-2: rgba(8, 39, 81, 1);
+$yale-blue: rgba(6, 57, 119, 1);
+$denim: rgba(3, 92, 194, 1);
+$bleu-de-france: rgba(2, 134, 223, 1);
+$picton-blue: rgba(0, 176, 252, 1);
+$pale-azure: rgba(118, 213, 254, 1);
+$uranian-blue: rgba(177, 231, 255, 1);
+$alice-blue: rgba(236, 249, 255, 1);
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-right: linear-gradient(90deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-bottom: linear-gradient(180deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-left: linear-gradient(270deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-top-right: linear-gradient(45deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-bottom-right: linear-gradient(135deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-top-left: linear-gradient(225deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-bottom-left: linear-gradient(315deg, #09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+$gradient-radial: radial-gradient(#09152bff, #082751ff, #063977ff, #035cc2ff, #0286dfff, #00b0fcff, #76d5feff, #b1e7ffff, #ecf9ffff);
+*/
+
+
+
+
+body {
+    background-color: #c73d25;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.logo img {
+    width: 130px;
+    margin-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+    padding: 11px 9px;
+}
+nav ul li:hover {
+    background-color: burlywood;
+    border-radius: 15px;
+    color: coral;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /*border: 3px solid white;
+    border-radius: 4px;
+    box-shadow: 4px 3px 3px white;
+    */
+}
+nav ul li a:hover {
+    color: #c73d25;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #c73d25;
+}
+#hero img{
+    width: 100%;
+}
+#about {
+    background-image: url(Asset/download.png);
+    background-position: right;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 0px;
+    background-color: #f0f1f7;
+}
+#about span {
+    text-decoration: solid;
+    text-decoration: underline;
+}
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+#product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  
+    
