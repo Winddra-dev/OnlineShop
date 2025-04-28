@@ -195,4 +195,43 @@ nav ul li a:hover {
   }
   
   
-    
+  .botom {
+    justify-content: space-between;
+    margin: 10px;
+    grid-row-start: 6;
+    grid-row-end: ;
+    row-gap: 16px;
+    padding-top: 16px;
+    padding: 16px 0;
+    padding-bottom: 16px;
+    padding-block: 40px 16px 40px 16px;
+    content: 1600px;
+    color: rgb(50, 56, 54);
+}
+.botom th{
+    size: 200px;
+}
+.botom img{
+    width: 13px;
+}
+h1 {
+    color: #ffffff;
+}
+h1 :hover{
+    color: #000;
+}
+.botom td {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    box-shadow: 4px 3px 3px;
+}
+.botom td, img :hover{
+    background-color: #fff;
+    color: #000;
+}
+th {
+    text-transform: initial;
+}
