@@ -130,54 +130,46 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 #about h2 {
-  margin-top: 50px;
-  width: 50%;
-  padding-left: 40px;
-  color: #ffffff;
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+    color: #ffffff;
 }
 #about p {
-  width: 50%;
-  padding-left: 40px;
-  line-height: 1.7em;
-  color: #ffffff;
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+    color: #ffffff;
 }
 #product {
     width: 100%;
     background-color: #ffffff;
     text-align: center;
     margin: 40px;
-  }
-  #product h2 {
+}
+#product h2 {
     text-align: center;
     color: #344CB7;
-  }
-  
-  
-  .card-product {
+}
+.card-product {
     width: 95%;
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-  }
-  
-  
-  .card {
+}
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
-  
-  
-  .price {
+}
+.price {
     color: grey;
     font-size: 22px;
-  }
-  
-  
-  .card button {
+}
+.card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -187,21 +179,17 @@ nav ul li a:hover {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
-  
-  
-  .card button:hover {
+}
+.card button:hover {
     opacity: 0.7;
-  }
-  
-  
-  .botom {
+}
+.botom {
     justify-content: space-between;
-    margin: 10px;
+    margin: 90px;
     grid-row-start: 6;
-    grid-row-end: ;
+    grid-row-end: 6;
     row-gap: 16px;
-    padding-top: 16px;
+    padding-top: 1px;
     padding: 16px 0;
     padding-bottom: 16px;
     padding-block: 40px 16px 40px 16px;

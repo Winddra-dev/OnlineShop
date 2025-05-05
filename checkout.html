@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Shopping Cart</h2>
+    <div id="cartItems"></div>
+    <button onclick="clearCart()">Clear Cart</button>
+
+    <script>
+        function loadCart() {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            let cartItemsDiv = document.getElementById("cartItems");
+
+            if (cart.length === 0) {
+                cartItemsDiv.innerHTML = "<p>Your cart is empty.</p>";
+            } else {
+                cartItemsDiv.innerHTML = cart.map((item, index) => `
+                    <div>
+                        <img src="${item.image}" width="100">
+                        <p>${item.name} - $${item.price}</p>
+                        <button onclick="removeItem(${index})">Remove</button>
+                    </div>
+                `).join("");
+            }
+        }
+
+        function removeItem(index) {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            cart.splice(index, 1);
+            localStorage.setItem("cart", JSON.stringify(cart));
+            loadCart();
+        }
+
+        function clearCart() {
+            localStorage.removeItem("cart");
+            loadCart();
+        }
+
+        loadCart();
+    </script>
+</body>
+</html>
