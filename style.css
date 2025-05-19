@@ -45,6 +45,7 @@ nav ul li a:hover {
     width: 100%;
 }
 #about {
+    background-image: url(Asset/Euy.jpg)
     background-position: right;
     background-attachment: flex;
     background-repeat: no-repeat;
